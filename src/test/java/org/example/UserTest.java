@@ -4,7 +4,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-// 실제 코드에서는 correct/wrong 사용하지 않고 random을 사용하지만 test 코드이기 때문에 사용  
+// 실제 코드에서는 correct/wrong 사용하지 않고 random을 사용하지만 test 코드이기 때문에 사용  2
 public class UserTest {
 
 	@DisplayName("패스워드를 초기화 한다.")
