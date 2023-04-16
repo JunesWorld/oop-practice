@@ -33,6 +33,7 @@ public class CalculatorTest {
 		assertThat(calculateResult).isEqualTo(result);
 	}
 	
+	// Calculator에 사칙연산 로직 구현 후 Test해야 정상적으로 통과한다. 
 	private static Stream<Arguments> formulaAndResult() {
 		return Stream.of(
 				arguments(1, "+", 2, 3),
@@ -53,13 +54,13 @@ public class CalculatorTest {
 //	@DisplayName("덧셈 연산을 수행한다.")
 //	@Test
 //	void additionTest() {
-//		
+//		// calculate란 intterface 만든다.
 //		int result = Calculator.calculate(1, "+", 2);
 //		
 //		assertThat(result).isEqualTo(3);
 //	}
 //	
-//	@DisplayName("덧셈 연산을 수행한다.")
+//	@DisplayName("뺄셈 연산을 수행한다.")
 //	@Test
 //	void substractionTest() {
 //		

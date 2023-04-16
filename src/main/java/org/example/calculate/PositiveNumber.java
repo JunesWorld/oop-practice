@@ -1,5 +1,7 @@
 package org.example.calculate;
 
+// 양수일 때만 작업을 수행하도록 
+// 모든 operand code에서 바꾸기 번거로움이 있기때문에 수정 
 public class PositiveNumber {
 	private final int value;
 	
@@ -17,6 +19,7 @@ public class PositiveNumber {
 		return value <= 0;
 	}
 	
+	// int값으로 변경해주는 code 
 	public int toInt() {
 		return value;
 	}

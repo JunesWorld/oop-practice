@@ -6,6 +6,7 @@ import org.example.calculate.PositiveNumber;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
+// 0과 음수 일 때 Exception Test
 public class PositiveNumberTest {
 
 	@ParameterizedTest
